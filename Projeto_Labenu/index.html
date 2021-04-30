@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto Labnu</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Projeto Seletivo Labenu</h1>
+	</header>
+
+	<section>
+		<div class="Logo">
+			<img class="logo-img" src="Labenu_logo.png">
+		</div>
+
+		<div class="cursos-contaier">
+			<div class="curso">
+				<h2>Mobile Frontend</h2>
+			</div>
+			<div class="curso curso2">
+				<h2>Mobile Frontend</h2>
+			</div>
+			<div class="curso curso3">
+				<h2>Mobile Frontend</h2>
+			</div>
+		</div>
+
+		<h3>Turma de 2020</h3>
+	</section>
+	
+	<footer>
+		<div class="form-contaier">
+			<input id="txtEmail" type="text" name="nome" placeholder="Coloque seu e-mail para contato! =)" >
+			<input onclick="registrarEmail();" type="button" name="acao" value="Enviar">
+		</div>
+	</footer>
+
+	<script type="text/javascript">
+		function registrarEmail(){
+			let email = document.getElementById('txtEmail').value;
+
+			if(!email.includes("@",0)){
+				alert('email invalido!');
+			}
+			else if(!email.includes(".",email.indexOf("@",0) +3)) {
+				alert('email errado!');
+			}
+			else{
+				alert('Seu email "' + email + '" foi enviado com sucesso!');
+			}
+		}
+
+
+	</script>
+</body>
+</html>

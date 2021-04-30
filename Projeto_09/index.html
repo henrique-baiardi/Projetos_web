@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Projeto 09</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header-master"><!-- sessao1 -->
+        <header>
+            <div class="container">
+                <div class="logo"></div>
+                <nav class="desktop">
+                    <ul>
+                        <li class="selected"><span></span><a href="">Invisalign</a></li>
+                        <li><span></span><a href="">Beneficios</a></li>
+                        <li><span></span><a href="">Serve para mim?</a></li>
+                        <li><span></span><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="telefone-header">
+                    <span> (48) 3222-6591</sspan>
+                </div><!--telefone-->
+                <div class="clear"></div><!-- clear -->
+            </div> <!--container-->
+        </header>
+        <div class="content-header">
+            <div class="container">
+                <div class="one">
+                    <h2>Seu sorriso perfeito atraveis de um tratamento discreto e inovador, em Florianopolis</h2>
+                    <p>Alinhe seus dentes com conforto, praticidade e liberdade! <b>Deixe seu email</b> para que a Dra. Leda possa entrar em contato e agendaruma avaliação gratuita.</p>
+                    <form>
+                        <input type="email" name="email">
+                        <input type="submit" name="acao" value="Quero saber mais!">
+                    </form>
+                    <span>ou ligue para a clinica Monguilhott (48) 32226591</span>
+                </div><!--one-->
+                <div class="two">
+                    <img src="imagens/round_images/circle01.png">
+                    <img src="imagens/round_images/circle02.png">
+                    <img src="imagens/round_images/circle03.png">
+                    <img src="imagens/round_images/circle04.png">
+                    <div class="clear"></div><!--clear-->
+                </div><!-- two -->
+                <div class="clear"></div><!--clear-->
+            </div><!-- container -->
+        </div><!-- content header -->
+    </section><!--Header master-->
+
+    <section class="diferenciais">
+        <div class="container">
+            <div class="diferencial-single">
+                <img src="imagens/icones/icone04.png">
+                <h2>Discreto por ser <b>transparente</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis auctor ante, sed iaculis augue maximus sed. Nunc sed posuere magna. Suspendisse quis hendrerit orci.</p>
+            </div><!-- diferencial single -->
+            <div class="diferencial-single">
+                <img src="imagens/icones/icone02.png">
+                <h2>Movel, <b>não atrapalha</b> para comer ou beber</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis auctor ante, sed iaculis augue maximus sed. Nunc sed posuere magna. Suspendisse quis hendrerit orci.</p>
+            </div><!-- diferencial single -->
+            <div class="diferencial-single">
+                <img src="imagens/icones/icone03.png">
+                <h2>Livre de fios ou metais, <b>muito mais conforto!</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis auctor ante, sed iaculis augue maximus sed. Nunc sed posuere magna. Suspendisse quis hendrerit orci.</p>
+            </div><!-- diferencial single -->
+            <div class="diferencial-single">
+                <img src="imagens/icones/icone06.png">
+                <h2>Consulta e resultados <b>mais rapidos</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis auctor ante, sed iaculis augue maximus sed. Nunc sed posuere magna. Suspendisse quis hendrerit orci.</p>
+            </div><!-- diferencial single -->
+            <div class="diferencial-single">
+                <img src="imagens/icones/icone01.png">
+                <h2><b>Não atrapalha</b> para falar ou cantar :)</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis auctor ante, sed iaculis augue maximus sed. Nunc sed posuere magna. Suspendisse quis hendrerit orci.</p>
+            </div><!-- diferencial single -->
+            <div class="diferencial-single">
+                <img src="imagens/icones/icone05.png">
+                <h2>Veja o resultado <b>antes de começar!</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis auctor ante, sed iaculis augue maximus sed. Nunc sed posuere magna. Suspendisse quis hendrerit orci.</p>
+            </div><!-- diferencial single -->
+        </div><!-- container -->
+    </section><!-- diferenciais -->
+
+    <section class="sobre">
+        <div class=" container">
+            <div class="sobre-container">
+                <img src="imagens/rosto.png">
+            </div><!--sobre1-->
+            <div class="sobre-container padsobre">
+                <h2>O futuro chegou, e ele é transparente!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h2>Conheça o procedimento com a <b>Dra. Leda Monguilhott</b></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div><!--container-->
+    </section><!-- Sobre -->
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('nav a').hover(function(){
+            $('nav li').removeClass('selected');
+            $(this).parent().addClass('selected');
+        })
+    </script>
+</body>
+</html>

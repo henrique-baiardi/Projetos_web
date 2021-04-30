@@ -1,0 +1,40 @@
+nav ul a,
+nav .brand-logo{
+  color: white;
+}
+.sect1{
+  position: relative;
+  min-height: 400px;
+}
+.form-container{
+  width: 100%;
+  max-width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 40px 0;
+  padding: 15px 2%;
+  background: white;
+}
+.custon-title{
+  position: relative;
+}
+.custon-title h2{
+  font-size: 30px;
+  background: white;
+  padding-left: 10px;
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+  padding-right: 10px;
+}
+.custon-title > div{
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  top: 43px;
+  left: 0;
+  z-index: 1;
+  background: black;
+}

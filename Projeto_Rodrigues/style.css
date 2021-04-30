@@ -1,0 +1,188 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+
+header .container{
+	text-align: center;
+	height: 250px;
+}
+header .container .img{
+	padding-top: 50px;
+}
+header .container img{
+	width: 130px;
+	height: 130px;
+}
+header p{
+}
+
+nav{
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+#navbar {
+	overflow: hidden;
+	background: white;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+}
+/*
+.sticky + .content {
+  padding-top: 20px;
+}
+*/
+nav ul{	
+	list-style-type: none;
+	padding-top: 20px;
+}
+nav ul li{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 0 2%;
+}
+nav ul li a{
+	font-style: none;
+	text-decoration: none;
+	font-size: 19px;
+	color: black;
+}
+#navbar li:hover {
+	text-decoration: underline;
+}
+
+
+
+section.discricao{
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+
+section.album{
+	padding: 5px 2%;
+}
+section .container{
+	max-width: 1280px;
+	padding: 40px 0;
+}
+section .container .vitrine{
+	float: left;
+	width: 25%;
+	text-align: left;
+	display: inline-block;
+}
+/*############################## */
+.vitrine .img-vitrine{
+	width: 100%;
+	padding-top: 100%;
+	background-size: 178% 100%;
+	background-position:center ;
+	background-repeat: no-repeat;
+}
+
+footer{
+	width: 50%;
+	margin: 30px auto;
+}
+footer ul{
+	text-align: center;	
+	margin: 0 10%;
+}
+footer ul li{
+	display: inline-block;
+	padding-left: 25px;
+}
+footer ul li a{
+	font-style: none;
+	font-size: 23px;
+	color: black;
+}
+div.social_icones{
+	display: inline-block;
+	float: right;
+	width: 25%;
+}
+.fab{
+	float: left;
+	font-size: 40px;
+	color: green;
+}
+.numero{
+	display: none;
+	margin-top: 10px;
+	float: left;
+}
+
+section.about{
+	height: 500px;
+	width: 70%;
+	margin: 0 auto;
+}
+.texto-about{
+	width: 70%;
+	height: 500px;
+	padding: 15px 15px;
+	float: left;
+	display: inline-block;
+	float: left;
+	
+}
+.imagem-about{
+	width: 25%;
+	min-width: 300px;
+	height: 500px;
+	float: left;
+	display: block;
+	background-image: url("imagens/Gif_about.gif");
+	background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+section.contact{
+	width: 50%;
+	margin: 30px auto;
+	padding: 0 5%;
+}
+.texto-contact h3{
+	margin-top: 15px;
+	text-align: center;
+	float: left;
+}
+.contato-email{
+	display: inline-block;
+	width: 100%;
+	margin-top: 15px;
+	margin-left: 30%;
+	padding-top: 0;
+	background-color: ;
+}
+.contato-email img{
+	width: 18px;
+	height: 18px;
+	float: left;
+}

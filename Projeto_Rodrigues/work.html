@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lety Animcations</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="keywords" content="palavras, separadas, por, virgula">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	<link font>
+
+
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="img">
+				<img src="imagens/wacom.gif">
+			</div>
+			
+		</div>
+		
+		<nav id="navbar">
+			<ul>
+				<li><a href="work.html" style="text-decoration: underline; color: #ccc">Work</a></li>
+
+				<li><a href="about.html">About</a></li>
+
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+
+		</nav>
+	</header>
+
+	<section class="discricao">
+		<div class="texto-discricao">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed varius tellus. Duis vestibulum faucibus sapien vitae faucibus. Curabitur dolor ligula, feugiat semper dapibus ac, pulvinar sed odio. Donec vel purus at nisl accumsan eleifend ut in nulla.</p>
+			
+		</div>
+		
+	</section>
+
+	<section class="album">
+		<div class="container">
+			
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/antifa.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/box.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/cartoon.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/gorro.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/hair.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/ilustra.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/lgbt.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/liquid.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/love.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/motofantasma.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/wacom.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/peixegif.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/wacomgif.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/whatlovegif.gif);"></div>
+			</div>
+			<div class="vitrine">
+				<div class="img-vitrine" style="background-image: url(imagens/motofantasmagif.gif);"></div>
+			</div>
+
+			<dir class="clear"></dir>
+		</div><!--container-->
+		
+	</section>
+
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="work.html" style="color: #ccc; text-decoration: underline;">Work</a></li>
+
+				<li><a href="about.html">About</a></li>
+
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+		</nav>
+		<div class="social_icones">
+			<div class="container1">
+				<a>
+					<i class="fab fa-whatsapp"></i>
+				</a>
+				
+			</div>
+			<dir  class="numero" id="numero">
+				<p>
+					(71) 98153 9369
+				</p>
+			</dir>
+		</div>
+		<dir style="width: 100%; height: 600px;"></dir>
+	</footer>
+
+<script src="jquery.js"></script>
+<script type="text/javascript">
+  
+	$(document).ready(function(){
+
+	  $(".container1").click(function(){
+	    $(".numero").slideToggle();
+	  });
+	});
+
+
+	window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+  
+</script>
+</body>
+</html>
